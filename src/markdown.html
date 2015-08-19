@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS STRUC CHANGE Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS STRUC CHANGE Extension Command</h1>
+
+<p>Test for structural change in a model using one or more fluctuation tests or Chow tests.</p>
+<div class="syntax">
+<p>STATS STRUC CHANGE DEPENDENT=<em>dependent variable</em><sup>&#42;</sup>
+INDEPENDENT=<em>independent variables</em><br/>
+FLUCTESTS = CUSUMREC<sup>&#42;&#42;</sup> CUSUMOLS  MOSUMREC  MOSUMOLS  RE  ME<br/>
+CHOW=NO<sup>&#42;&#42;</sup> or YES FROM=<em>start</em> TO=<em>end</em>
+BANDWIDTH = <em>fraction</em></p>
+
+<p>/OPTIONS PLOT=YES<sup>&#42;&#42;</sup> or NO SCTEST= YES<sup>&#42;&#42;</sup> or NO
+ALPHA=<em>confidencelevel</em> INCLUDELAG=NO<sup>&#42;&#42;</sup> or YES
+START = <em>start</em> PERIODICITY=<em>periodicity</em></p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>/HELP displays this text and does nothing else.</p>
+
+<pre class="example"><code>STATS STRUC CHANGE DEPENDENT=y INDEPENDENT=x1 x2 x3
+TESTS=CUSUMREC CUSUMOLS
+/OPTIONS PLOT=YES SCTEST=YES.
+</code></pre>
+
+<p>Example with CHOW test and time series:</p>
+
+<pre class="examplenobefore"><code>STATS STRUC CHANGE DEPENDENT=y INDEPENDENT=x1 x2 x3
+CHOW = YES FROM=2000 2 TO=2002 4
+/OPTIONS START = 1995 4 PERIODICITY=4.
+</code></pre>
+
+<p><strong>DEPENDENT</strong> and <strong>INDEPENDENT</strong> name the variables in the linear model.
+Categorical variables are automatically converted to R factors.
+If no independent variables are named, the tests are based on the dependent
+variable alone, i.e., it is as if that variable were regressed on a a constant.</p>
+
+<p><strong>FLUCTESTS</strong> names one or more tests for structural change. 
+The tests are as follows.
+The first four calculate an empirical process of sums of residuals.  They
+are based on recursive residuals or OLS residuals (REC or OLS)
+The sums are either cumulative or for a moving data window (CUSUM or MOSUM).
+The remaining two are based on recursive estimates of the regression
+coefficients or moving OLS estimates.</p>
+
+<p><strong>CHOW</strong> specifies a CHOW test.  If used, the <strong>FROM</strong> and <strong>TO</strong> parameters must be specified.
+The CHOW F statistic is calculated for each point between FROM and TO, and a test
+is performed based on the maximum F statistic.  In the associated plot, the labeling on
+the x axis shows the second component in a date as the fraction of the period.  That is,
+with quarterly data rather than seeing 1,2,3,4 as the second component, you might see <code>0, .25., .50, .75.</code></p>
+
+<p>The <strong>BANDWIDTH</strong> determines the size of the window for moving residuals or estimates.
+it is expressed as a fraction between 0 and 1 and defaults to .15, i.e., 15% of the
+sample.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>PLOT</strong> and <strong>SCTEST</strong> determine whether plots and test statistics are displayed.
+By default, both are displayed.  PLOT=NO SCTEST=NO is an error as there
+would be no output.</p>
+
+<p><strong>ALPHA</strong> determines the size of the confidence intervals shown in the plots.
+It defaults to .05.</p>
+
+<p><strong>INCLUDELAG</strong> determines whether the lagged dependent variable is included
+in the equation.</p>
+
+<p>For time series data, START can specify the initial date as a number, 
+e.g., <code>2000</code>, or pair of numbers, e.g., <code>2000 4</code>, and <strong>PERIODICITY</strong> specifies the periodicity.  For example,<br/>
+<code>START=2000 3 PERIODICITY=12</code> would define monthly data starting in
+year 2000, month 3.  This information is used only for labelling the plots
+and interpreting the FROM and TO parameters.</p>
+
+<p>For CHOW tests, <strong>FROM</strong> and <strong>TO</strong> determine the possible location of a structural change.
+The values can be specified as dates similar to the START
+parameter.  For time series, these can have one or two components.
+If FROM and TO are less than 1, they are interpreted as fractions of the sample.
+For example, if there are N cases and FROM = .2, the starting value is case N*.2
+If data are not declared as time series, FROM and TO are interpreted as case
+numbers if they are integers.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
