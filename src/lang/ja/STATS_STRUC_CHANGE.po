@@ -1,0 +1,135 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_STRUC_CHANGE.R:115
+msgid "Chow tests were specified without starting and ending cases or proportions"
+msgstr ""
+"開始ケースと終了ケースまたは開始比率と終了比率なしで、Chow 検定が指定されました"
+
+#: STATS_STRUC_CHANGE.R:127
+msgid "The starting or ending date for a Chow test exceeds the specified periodicity of the data"
+msgstr ""
+"Chow 検定の開始日または終了日が、データの指定された周期性を超えています"
+
+#: STATS_STRUC_CHANGE.R:131
+msgid "No tests were specified"
+msgstr ""
+"検定は指定されませんでした"
+
+#: STATS_STRUC_CHANGE.R:136
+msgid "The R strucchange package is required but could not be loaded."
+msgstr ""
+"R strucchange パッケージが必要ですが、ロードできませんでした。"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive CUSUM"
+msgstr ""
+"再帰的 CUSUM"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "OLS-Based CUSUM"
+msgstr ""
+"OLS ベース CUSUM"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive MOSUM"
+msgstr ""
+"再帰的 MOSUM"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "OLS-Based MOSUM"
+msgstr ""
+"OLS ベース MOSUM"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Recursive Estimates"
+msgstr ""
+"再帰的推定値"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Moving Estimates"
+msgstr ""
+"移動推定値"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Sup-F Chow"
+msgstr ""
+"Sup-F Chow"
+
+#: STATS_STRUC_CHANGE.R:163
+#: STATS_STRUC_CHANGE.R:213
+#: STATS_STRUC_CHANGE.R:215
+msgid "Structural Change Tests"
+msgstr ""
+"構造変化検定"
+
+#: STATS_STRUC_CHANGE.R:173
+msgid "Test cannot be computed: %s"
+msgstr ""
+"検定を計算できません: %s"
+
+#: STATS_STRUC_CHANGE.R:179
+msgid "Empirical Fluctuation Process"
+msgstr ""
+"経験的変動プロセス"
+
+#: STATS_STRUC_CHANGE.R:185
+msgid "Chow tests cannot be computed"
+msgstr ""
+"Chow 検定を計算できません"
+
+#: STATS_STRUC_CHANGE.R:191
+msgid "F Statistics"
+msgstr ""
+"F 統計量"
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "from="
+msgstr ""
+"開始: "
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "to="
+msgstr ""
+"終了: "
+
+#: STATS_STRUC_CHANGE.R:195
+#: STATS_STRUC_CHANGE.R:216
+msgid "Model:"
+msgstr ""
+"モデル:"
+
+#: STATS_STRUC_CHANGE.R:197
+msgid "Plot cannot be produced"
+msgstr ""
+"プロットを生成できません"
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "Test Statistic"
+msgstr ""
+"検定統計量"
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "P-Value"
+msgstr ""
+"p 値"
+
+
