@@ -1,0 +1,135 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_STRUC_CHANGE.R:115
+msgid "Chow tests were specified without starting and ending cases or proportions"
+msgstr ""
+"지정된 Chow 검정에 시작/종료 케이스 또는 비율이 없습니다."
+
+#: STATS_STRUC_CHANGE.R:127
+msgid "The starting or ending date for a Chow test exceeds the specified periodicity of the data"
+msgstr ""
+"Chow 검정의 시작 또는 종료 날짜가 지정된 데이터 주기를 초과합니다."
+
+#: STATS_STRUC_CHANGE.R:131
+msgid "No tests were specified"
+msgstr ""
+"지정된 검정이 없습니다."
+
+#: STATS_STRUC_CHANGE.R:136
+msgid "The R strucchange package is required but could not be loaded."
+msgstr ""
+"R strucchange 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive CUSUM"
+msgstr ""
+"반복 CUSUM"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "OLS-Based CUSUM"
+msgstr ""
+"OLS-기반 CUSUM"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive MOSUM"
+msgstr ""
+"반복 MOSUM"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "OLS-Based MOSUM"
+msgstr ""
+"OLS-기반 MOSUM"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Recursive Estimates"
+msgstr ""
+"반복 추정값"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Moving Estimates"
+msgstr ""
+"이동 추정값"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Sup-F Chow"
+msgstr ""
+"Sup-F Chow"
+
+#: STATS_STRUC_CHANGE.R:163
+#: STATS_STRUC_CHANGE.R:213
+#: STATS_STRUC_CHANGE.R:215
+msgid "Structural Change Tests"
+msgstr ""
+"구조변화 검정"
+
+#: STATS_STRUC_CHANGE.R:173
+msgid "Test cannot be computed: %s"
+msgstr ""
+"검정을 계산할 수 없습니다. %s"
+
+#: STATS_STRUC_CHANGE.R:179
+msgid "Empirical Fluctuation Process"
+msgstr ""
+"경험적 변이 프로세스"
+
+#: STATS_STRUC_CHANGE.R:185
+msgid "Chow tests cannot be computed"
+msgstr ""
+"Chow 검정을 계산할 수 없습니다."
+
+#: STATS_STRUC_CHANGE.R:191
+msgid "F Statistics"
+msgstr ""
+"F 통계량"
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "from="
+msgstr ""
+"시작="
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "to="
+msgstr ""
+"종료="
+
+#: STATS_STRUC_CHANGE.R:195
+#: STATS_STRUC_CHANGE.R:216
+msgid "Model:"
+msgstr ""
+"모형:"
+
+#: STATS_STRUC_CHANGE.R:197
+msgid "Plot cannot be produced"
+msgstr ""
+"도표를 생성할 수 없습니다."
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "Test Statistic"
+msgstr ""
+"검정 통계량"
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "P-Value"
+msgstr ""
+"P-값"
+
+
