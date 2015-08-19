@@ -1,0 +1,33 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- IBM SPSS Products: Statistics Common                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2012                                -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
+<!-- Corp.                                                             -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS STRUC CHANGE" Language="R">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="DEPENDENT" ParameterType="VariableName"/>
+		<Parameter Name="INDEPENDENT" ParameterType="VariableNameList"/>
+		<Parameter Name="FLUCTESTS" ParameterType="KeywordList"/>
+		<Parameter Name="BANDWIDTH" ParameterType="Number"/>
+		<Parameter Name="CHOW" ParameterType="Keyword"/>
+		<Parameter Name="FROM" ParameterType="NumberList"/>
+		<Parameter Name="TO" ParameterType="NumberList"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="PLOT" ParameterType="Keyword"/>
+		<Parameter Name="SCTEST" ParameterType="Keyword"/>
+		<Parameter Name="ALPHA" ParameterType="Number"/>
+		<Parameter Name="INCLUDELAG" ParameterType="Keyword"/>
+		<Parameter Name="START" ParameterType="NumberList"/>
+		<Parameter Name="PERIODICITY" ParameterType="Integer"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
