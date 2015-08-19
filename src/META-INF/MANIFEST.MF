@@ -1,0 +1,16 @@
+Name: STATS STRUC CHANGE
+Dialog-Specs: STATS_STRUC_CHANGE.spd
+Command-Specs: STATS_STRUC_CHANGE.xml
+Code-Files: STATS_STRUC_CHANGE.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Test for structural change in regresion models with ordered c
+ ases
+Description: This package calculates a linear model for specified vari
+ ables and provides plots and test statistics for structural change.  
+ Cases should be time series data or ordered by another variable.
+Author: JKP, IBM SPSS
+Version: 1.0.5
+Product-Version: 19
+Date: 11/2012
+Plugins: R
+Translation-Catalogues: lang
