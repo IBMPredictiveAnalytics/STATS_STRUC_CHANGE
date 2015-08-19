@@ -1,0 +1,135 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_STRUC_CHANGE.R:115
+msgid "Chow tests were specified without starting and ending cases or proportions"
+msgstr ""
+"Les tests de Chow ont été spécifiées sans proportions ni observations de début ou de fins."
+
+#: STATS_STRUC_CHANGE.R:127
+msgid "The starting or ending date for a Chow test exceeds the specified periodicity of the data"
+msgstr ""
+"La date de début ou de fin d'un test de Chow est en dehors de la périodicité spécifiée pour les données."
+
+#: STATS_STRUC_CHANGE.R:131
+msgid "No tests were specified"
+msgstr ""
+"Aucun test n'a été spécifié."
+
+#: STATS_STRUC_CHANGE.R:136
+msgid "The R strucchange package is required but could not be loaded."
+msgstr ""
+"Le pack R strucchange est requis, mais n'a pas pu être chargé."
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive CUSUM"
+msgstr ""
+"CUSUM récursif"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "OLS-Based CUSUM"
+msgstr ""
+"CUSUM basé sur OLS"
+
+#: STATS_STRUC_CHANGE.R:158
+msgid "Recursive MOSUM"
+msgstr ""
+"MOSUM récursif"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "OLS-Based MOSUM"
+msgstr ""
+"MOSUM basé sur OLS"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Recursive Estimates"
+msgstr ""
+"Estimations récursives"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Moving Estimates"
+msgstr ""
+"Estimations mobiles"
+
+#: STATS_STRUC_CHANGE.R:159
+msgid "Sup-F Chow"
+msgstr ""
+"Sup-F Chow"
+
+#: STATS_STRUC_CHANGE.R:163
+#: STATS_STRUC_CHANGE.R:213
+#: STATS_STRUC_CHANGE.R:215
+msgid "Structural Change Tests"
+msgstr ""
+"Tests de changement structurel"
+
+#: STATS_STRUC_CHANGE.R:173
+msgid "Test cannot be computed: %s"
+msgstr ""
+"Impossible de calculer le test : %s"
+
+#: STATS_STRUC_CHANGE.R:179
+msgid "Empirical Fluctuation Process"
+msgstr ""
+"Processus de fluctuation empirique"
+
+#: STATS_STRUC_CHANGE.R:185
+msgid "Chow tests cannot be computed"
+msgstr ""
+"Impossible de calculer les tests de Chow."
+
+#: STATS_STRUC_CHANGE.R:191
+msgid "F Statistics"
+msgstr ""
+"Statistiques F"
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "from="
+msgstr ""
+"de="
+
+#: STATS_STRUC_CHANGE.R:192
+msgid "to="
+msgstr ""
+"à="
+
+#: STATS_STRUC_CHANGE.R:195
+#: STATS_STRUC_CHANGE.R:216
+msgid "Model:"
+msgstr ""
+"Modèle :"
+
+#: STATS_STRUC_CHANGE.R:197
+msgid "Plot cannot be produced"
+msgstr ""
+"Impossible de générer le tracé."
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "Test Statistic"
+msgstr ""
+"Statistiques de test"
+
+#: STATS_STRUC_CHANGE.R:215
+msgid "P-Value"
+msgstr ""
+"Valeur P"
+
+
