@@ -1,11 +1,11 @@
 # STATS STRUC CHANGE
-## Test for structural change in regresion models with ordered c
- This package calculates a linear model for specified vari
+## Test for structural change in regresion models with ordered cases
+ This package calculates a linear model for specified variables and provides plots and test statistics for structural change.  Cases should be time series data or ordered by another variable.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 19 or later
+- IBM SPSS Statistics 19 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
