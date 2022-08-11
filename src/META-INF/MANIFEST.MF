@@ -6,11 +6,12 @@ Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
 Summary: Test for structural change in regresion models with ordered c
  ases
 Description: This package calculates a linear model for specified vari
- ables and provides plots and test statistics for structural change.  
+ ables and provides plots and test statistics for structural change.
  Cases should be time series data or ordered by another variable.
 Author: JKP, IBM SPSS
-Version: 1.0.5
+Version: 1.0.6
 Product-Version: 19
 Date: 11/2012
 Plugins: R
+R-Packages: strucchange
 Translation-Catalogues: lang
