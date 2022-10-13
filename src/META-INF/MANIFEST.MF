@@ -1,4 +1,5 @@
 Name: STATS STRUC CHANGE
+Display-Name: Test for Structural Change
 Dialog-Specs: STATS_STRUC_CHANGE.spd
 Command-Specs: STATS_STRUC_CHANGE.xml
 Code-Files: STATS_STRUC_CHANGE.R
